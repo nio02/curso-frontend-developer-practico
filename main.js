@@ -19,3 +19,14 @@ function toggleMobileMenu(){
     console.log('Click');
     mobileMenu.classList.toggle('inactive');
 }
+
+//Event Listener - Aside (Shopping Cart)
+const menuShopCarIcon = document.querySelector('.navbar-shopping-cart');
+const shoppingCartMenu = document.querySelector('.product-detail');
+
+menuShopCarIcon.addEventListener('click', toggleShoppingCartMenu);
+
+function toggleShoppingCartMenu(){
+    console.log('Click');
+    shoppingCartMenu.classList.toggle('inactive');
+}
