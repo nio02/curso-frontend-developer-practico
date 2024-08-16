@@ -36,7 +36,7 @@ function toggleMobileMenu(){
 
 //Event Listener - Aside (Shopping Cart)
 const menuShopCarIcon = document.querySelector('.navbar-shopping-cart');
-const shoppingCartMenu = document.querySelector('.product-detail');
+const shoppingCartMenu = document.querySelector('#shoppingCartContainer');
 
 menuShopCarIcon.addEventListener('click', toggleShoppingCartMenu);
 
